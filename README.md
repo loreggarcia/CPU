@@ -51,6 +51,8 @@ A ALU implementa as seguintes operações :contentReference[oaicite:1]{index=1}:
 | Divisão | AC / N → AC (resto) e MQ (quociente) |
 | Shift Left | Deslocamento lógico à esquerda |
 | Shift Right | Deslocamento lógico à direita |
+| XOR | Operação XOR |
+| NAND | Operação NAND |
 
 ---
 
