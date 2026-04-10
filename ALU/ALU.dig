@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<circuit>
+  <version>2</version>
+  <attributes/>
+  <visualElements>
+    <visualElement>
+      <elementName>Multiplexer</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Bits</string>
+          <int>8</int>
+        </entry>
+        <entry>
+          <string>Selector Bits</string>
+          <int>3</int>
+        </entry>
+      </elementAttributes>
+      <pos x="640" y="-40"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Register</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Bits</string>
+          <int>8</int>
+        </entry>
+      </elementAttributes>
+      <pos x="460" y="-60"/>
+    </visualElement>
+    <visualElement>
+      <elementName>In</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>N</string>
+        </entry>
+        <entry>
+          <string>Bits</string>
+          <int>8</int>
+        </entry>
+      </elementAttributes>
+      <pos x="-60" y="-40"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Tunnel</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="2"/>
+        </entry>
+        <entry>
+          <string>NetName</string>
+          <string>ACout</string>
+        </entry>
+      </elementAttributes>
+      <pos x="-60" y="60"/>
+    </visualElement>
+    <visualElement>
+      <elementName>8bitAdder.dig</elementName>
+      <elementAttributes/>
+      <pos x="200" y="-80"/>
+    </visualElement>
+    <visualElement>
+      <elementName>8bitSub.dig</elementName>
+      <elementAttributes/>
+      <pos x="200" y="40"/>
+    </visualElement>
+    <visualElement>
+      <elementName>8bitMult.dig</elementName>
+      <elementAttributes/>
+      <pos x="200" y="140"/>
+    </visualElement>
+    <visualElement>
+      <elementName>8bitDiv.dig</elementName>
+      <elementAttributes/>
+      <pos x="200" y="240"/>
+    </visualElement>
+    <visualElement>
+      <elementName>8bitsShiftLeft.dig</elementName>
+      <elementAttributes/>
+      <pos x="200" y="340"/>
+    </visualElement>
+    <visualElement>
+      <elementName>8bitsShiftRight.dig</elementName>
+      <elementAttributes/>
+      <pos x="200" y="420"/>
+    </visualElement>
+    <visualElement>
+      <elementName>8bitsXOR.dig</elementName>
+      <elementAttributes/>
+      <pos x="200" y="500"/>
+    </visualElement>
+    <visualElement>
+      <elementName>8bitsNand.dig</elementName>
+      <elementAttributes/>
+      <pos x="200" y="620"/>
+    </visualElement>
+  </visualElements>
+  <wires>
+    <wire>
+      <p1 x="-20" y="-120"/>
+      <p2 x="440" y="-120"/>
+    </wire>
+    <wire>
+      <p1 x="-60" y="-40"/>
+      <p2 x="-20" y="-40"/>
+    </wire>
+    <wire>
+      <p1 x="440" y="-60"/>
+      <p2 x="460" y="-60"/>
+    </wire>
+    <wire>
+      <p1 x="-20" y="-120"/>
+      <p2 x="-20" y="-40"/>
+    </wire>
+    <wire>
+      <p1 x="440" y="-120"/>
+      <p2 x="440" y="-60"/>
+    </wire>
+  </wires>
+  <measurementOrdering/>
+</circuit>
